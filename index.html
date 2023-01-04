@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/bag.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <title>Portafolio</title>
+    <meta name="description" content="Portfolio web dedicado a la información como programador y desarrollador de software de Tobias Fernandez Riva, con data sobre su educacion académica." />
+</head>
+<body>
+    <section class="navbar__section">
+        <div class="navbar__section-container">
+            <div class="navbar__logo">
+                <span class="navbar__logo-text">Tobias</span>
+            </div>
+            <nav class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-list-item">
+                        <a href="#about-me" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/user-solid.svg" alt="icono usuario de aplicación para enlace sobre mi información personal">Sobre mi
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#services" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/briefcase-solid.svg" alt="icono de un maletín para enlace de servicios">Servicios
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#experiencies" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/graduation-cap-solid.svg" alt="icono de birrete para enlace de experiencia académica">Educacion
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#contact" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/comments-solid.svg" alt="icono de globos de conversación para enlace a mi contacto">Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="sections">
+        <section id="banner" class="section-banner">
+            <img class="section-banner__avatar" src="assets/avatar.svg" alt="icono en flat design de un usuario con una computadora" />
+            <h1 class="section-banner__name">Tobias Fernandez Riva</h1>
+            <h2 class="section-banner__profesion">Frontend Developer</h2>
+            <ul class="section-banner__rrss-list">
+                <li class="section-banner__rrss-item">
+                    <a href="https://www.linkedin.com/in/tobias-fernandez-855488122/"><img class="section-banner__item-icon" src="assets/linkedin-in-brands.svg" alt="icono para el enlace a la página linkedin" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="#"><img class="section-banner__item-icon" src="assets/github-brands.svg" alt="icono para el enlace a la página de github" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="https://www.instagram.com/totito_22/"><img class="section-banner__item-icon" src="assets/twitter-brands.svg" alt="icono para el enlace al perfil de twitter" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="https://www.instagram.com/totito_23/"><img class="section-banner__item-icon" src="assets/instagram-brands.svg" alt="icono para el enlace al perfil de instagram" /></a>
+                </li>
+            </ul>
+            <a href="#contact" class="button-primary">Contáctame</a>
+            <a href="#about-me" class="section-banner__scroll">
+                <span>Scroll down</span>
+                <img class="section-banner__scroll-icon" src="assets/scroll.png" alt="icono para hacer desplazarse a las siguientes secciones del sitio" />
+            </a>
+        </section>
+        <section id="about-me" class="section section-about-me">
+            <h3 class="section__subtitle">Sobre mi</h3>
+            <div class="section-about-me__container">
+                <div class="section-about-me__avatar-container">
+                    <img class="section-about-me__avatar" src="assets/avatar.svg" alt="icono en flat design de un usuario con una computadora" />
+                </div>
+                <div class="card section-about-me__card">
+                    <div class="section-about-me__card-info">
+                        <p>¡Hola! Soy desarrollador Frontend y analista de Marketing. Actualmente estudio en Academia RocketCode.</p>
+                        <button class="button-primary">Ver curriculum</button>
+                    </div>
+                    <div class="section-about-me__card-skills">
+                        <div class="section-about-me__skill">
+                            <span>HTML</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--html"></div>
+                            </div>
+                        </div>
+                        <div class="section-about-me__skill">
+                            <span>CSS</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--css"></div>
+                            </div>
+                        </div>
+                        <div class="section-about-me__skill">
+                            <span>UX/UI</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--ux"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="section section-services">
+            <h3 class="section__subtitle">Servicios</h3>
+            <div class="section-servicess__container">
+                <div class="card section-services__card section-services__card--html">
+                    <img class="section-services__picture" src="assets/dev.svg" alt="icono de una web con el simbolo de html" />
+                    <h3 class="section-services__title">HTML</h3>
+                    <p class="section-services__description"> Es el componente basico en programacion. Que define y clasifica los elementos que nuestro sitio mostrara en los distintos dispositivos. En comparativa, es el esqueleto de nuestro sitio.</p>
+                </div>
+                <div class="card section-services__card section-services__card--css">
+                    <img class="section-services__picture" src="assets/css.svg" alt="icono de un cohete espacial relacionado a los estilos en css" />
+                    <h3 class="section-services__title">CSS</h3>
+                    <p class="section-services__description"> Se llama asi a la cascada de estilo que presentara nuestro sitio. En el podemos ordenar, definir colores, animaciones, eventos, y ejecutar toda la fantasia que podamos. Si lo comparamos, es el peinado y ropa de nuestro sitio.</p>
+                </div>
+                <div class="card section-services__card section-services__card--ux">
+                    <img class="section-services__picture" src="assets/ux.svg" alt="icono de una bombilla de luz que representa las ideas en el diseño y experiencia de usuario" />
+                    <h3 class="section-services__title">UX / UI</h3>
+                    <p class="section-services__description"> Es la herramienta de programacion que nos permite exactamente diseñar y programar el sitio para la mejor experiencia del usuario.</p>
+                </div>
+            </div>
+        </section>
+        <section id="experiencies" class="section section-experiences">
+            <h3 class="section__subtitle">Educacion</h3>
+            <div class="section-experiences__container">
+                <div class="card section-experiences__card">
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2016 - 2022 FUNDEPRO</time>
+                        </div>
+                        <h3 class="section-experiences__title">Tecnicatura Superior en Administracion y Control de la hacienda Publica</h3>
+                        <p class="section-experiences__description">    El tecnico superior esta capacitado en realizar tareas operativas de gestion y control en distintos niveles de la Administracion Publica vinculados a RRHH, estados de cuentas, control interno, procesamiento de datos, elabotacion de informes, actas, convenios asi como identificar fallas y efectuar propuestas de mejoras.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2020 Academia Rocket Code</time>
+                        </div>
+                        <h3 class="section-experiences__title">Aprendizaje Frontend</h3>
+                        <p class="section-experiences__description">Capacitacion en utilizacion de HTML5 junto con las herramientas de estilos y CSS3. erfil del Licenciado en Politicas Publcias hace enfasis en la innovacion y capacidad de documentarse, aprender, y hacer propuestas para la toma de decisiones, sobre diversos asuntos y problemas publicos en un proceso constante de ana.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2015 - 2018 Ins. Internazionale Dante Alighieri</time>
+                        </div>
+                        <h3 class="section-experiences__title">Italiano</h3>
+                        <p class="section-experiences__description">Certificacion PLIDA en nivel A2 de Italiano.</p>
+                    </div>
+                </div>
+                <div class="card section-experiences__card">
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2020 - 2022 Universidad Nacional Tres de Febrero</time>
+                        </div>
+                        <h3 class="section-experiences__title">Licenciatura en Gestion de Politicas Publicas</h3>
+                        <p class="section-experiences__description">El perfil del Licenciado en Politicas Publcias hace enfasis en la innovacion y capacidad de documentarse, aprender, y hacer propuestas para la toma de decisiones, sobre diversos asuntos y problemas publicos en un proceso constante de analisis y actualzacion.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2020 - 2022 Universidad Empresarial Siglo 21</time>
+                        </div>
+                        <h3 class="section-experiences__title">Tecnicatura universitaria en Marketing Digital</h3>
+                        <p class="section-experiences__description">El profesional esta capacitado para combinar las mejores practicas del marketing y la publicidad tradicional e incorpora las nuevas tecnologias y los medios de comunicacion digital.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2018 Instituto RA</time>
+                        </div>
+                        <h3 class="section-experiences__title">Curso Microsoft</h3>
+                        <p class="section-experiences__description">Capacitacion en del paquete Microsoft y Google.  erfil del Licenciado en Politicas Publcias hace enfasis en la innovacion y capacidad de documentarse, aprender, y hacer propuestas para la toma de decisiones, sobre diversos asuntos y problemas publicos en un proceso constante de ana.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer id="contact">
+        <div class="footer-contact">
+            <h3 class="section__subtitle">Contáctame</h3>
+            <div class="footer-contact__container">
+                <div class="footer-contact__info">
+                    <h4>¡Enviame un mensaje!</h4>
+                    <p>Con gusto voy a estar respondiendo a la brevedad.👋🏼</p>
+                </div>
+                <div class="footer-contact__form-container">
+                    <form class="footer-contact__form">
+                        <div class="footer-contact__form-atributes-group">
+                            <input class="form-input" type="text" name="name" placeholder="Nombre" />
+                            <input class="form-input"  type="text" name="email" placeholder="Email" />
+                        </div>
+                        <textarea class="form-input" name="message" placeholder="Mensaje"></textarea>
+                        <input type="submit" class="button-primary" value="🖊️Enviar" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
